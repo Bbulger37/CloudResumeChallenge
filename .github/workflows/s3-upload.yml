@@ -32,4 +32,4 @@ jobs:
       - name: Build
         run: yarn build
       - name: Deploy
-        run: aws s3 sync ./Bbulger37/CloudResumeChallenge s3://bbresume.com
+        run: aws s3 sync ./ s3://bbresume.com
